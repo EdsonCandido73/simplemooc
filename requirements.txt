@@ -7,8 +7,6 @@ django-toolbelt==0.0.1
 docutils==0.14
 gunicorn==19.9.0
 idna==2.7
-Kivy==1.10.0
-Kivy-Garden==0.1.4
 model-mommy==1.6.0
 Pillow==5.2.0
 psycopg2==2.7.5
