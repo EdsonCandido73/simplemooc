@@ -38,10 +38,16 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # libs
+    'taggit',
+
+    # apps
     'simplemooc.core',
     'simplemooc.accounts',
     'simplemooc.courses',
+    'simplemooc.forum',
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -144,6 +150,7 @@ LOGIN_REDIRECT_URL = 'core:home'
 LOGOUT_URL = 'accounts:logout'
 AUTH_USER_MODEL = 'accounts.User'
 
+'''
 # Heroku settings
 import dj_database_url
 DATABASES['default'] = dj_database_url.config()
@@ -158,5 +165,4 @@ STATIC_ROOT = 'staticfiles'
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
-
-
+'''
