@@ -2,7 +2,7 @@ certifi==2018.4.16
 chardet==3.0.4
 dj-database-url==0.5.0
 dj-static==0.0.6
-Django==2.0.7
+Django==2.0.12
 django-toolbelt==0.0.1
 docutils==0.14
 gunicorn==19.9.0
